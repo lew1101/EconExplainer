@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "econexplain"
+version = "0.1.0"
+description = ""
+authors = ["Kenneth Lew <73978231+lew1101@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+furo = "^2022.12.7"
+doc8 = "^1.0.0"
+Sphinx = "^5.3.0"
+docutils = "^0.19"
+sphinx-design = "^0.3.0"
+
+[tool.poetry.group.dev.dependencies]
+sphinx-autobuild = "^2021.3.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
