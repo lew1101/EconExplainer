@@ -27,13 +27,17 @@ jobs:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
 
+      - name: Activate virtualenv
+        run: |
+          source .venv/bin/activate
+
       - name: Install dependencies
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: |
           poetry install --no-interaction --no-root --no-dev
 
       - name: Sphinx build
-        run: |
+        run: | 
           sphinx-build -aE source build/html
 
       - name: Deploy
