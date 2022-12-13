@@ -15,7 +15,7 @@
         {
             "label": "live-reload",
             "type": "shell",
-            "command": "sphinx-autobuild -Ea source build/html",
+            "command": "sphinx-autobuild source build/html",
         }
     ]
 }
