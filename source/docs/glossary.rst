@@ -4,6 +4,9 @@ Glossary
 This glossary is a list of definitions of economic terms and concepts used. 
 
 .. glossary::
+    **Ad Valorem Tax** 
+        Progressive tax where the amount of tax levied is dependent on the price of the good. The most common example of this is a percentage tax. 
+
     **Ceteris Paribus**
         Latin phrase which translates to "all other things being equal". It is a simplifying assumption where all variables except those of interest are held constant. Ceteris Paribus is used to simplify the analysis and description of economic outcomes.
 
@@ -36,6 +39,9 @@ This glossary is a list of definitions of economic terms and concepts used.
     
     **Supply**
         The total amount of a certain good or service supplied by suppliers in a :term:`market`.
+
+    **Specific Tax**
+        Fixed amount of tax which is levied on every unit of produce. 
 
     **Price Controls**
         Government restrictions imposed to regulate the trade of a certain good or service. 
